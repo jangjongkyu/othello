@@ -1,0 +1,32 @@
+package game;
+
+import gui.MenuView;
+
+public class Launcher {
+	public static void main(String[] args) {
+		//TODO TEST Commit
+		//TODO TEST Commit2
+		//TODO TEST Commit 333
+		MenuView menu = new MenuView();
+		menu.setVisible(true);
+	}
+	public static void start1P(){
+		//TODO TEST2
+		Game g = new Game(1,7,8);
+		g.init();
+		g.start();
+	}
+	public static void start2P(){
+		//TODO TEST3
+		Game g = new Game(2,7,8);
+		g.init();
+		g.start();
+	}
+	public static void startAItoAI(){
+		//TODO TEST4
+		Game g = new Game(true, 7,7,8);
+		g.init();
+		g.start();
+	}
+}
+//TODO END
